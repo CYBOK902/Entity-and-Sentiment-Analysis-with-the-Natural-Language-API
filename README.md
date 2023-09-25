@@ -1,7 +1,7 @@
 # Entity-and-Sentiment-Analysis-with-the-Natural-Language-API
 
 
-[export API_KEY=
+export API_KEY=<YOUR_API_KEY>
 
 cat > request.json <<EOF
 {
@@ -14,4 +14,4 @@ cat > request.json <<EOF
 EOF
 
 curl "https://language.googleapis.com/v1/documents:analyzeEntities?key=${API_KEY}" \
-  -s -X POST -H "Content-Type: application/json" --data-binary @request.json > result.json](https://github.com/CYBOK902/Entity-and-Sentiment-Analysis-with-the-Natural-Language-API/edit/main/README.md)https://github.com/CYBOK902/Entity-and-Sentiment-Analysis-with-the-Natural-Language-API/edit/main/README.md
+  -s -X POST -H "Content-Type: application/json" --data-binary @request.json > result.json
